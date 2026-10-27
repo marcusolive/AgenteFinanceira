@@ -1,0 +1,13 @@
+bin/
+obj/
+*.user
+*.suo
+.vs/
+packages/
+/checkpoints/
+src/AgenteFinanceiro.Api/checkpoints/
+appsettings.*.local.json
+secrets.json
+*.usersecrets
+.env
+.env.*

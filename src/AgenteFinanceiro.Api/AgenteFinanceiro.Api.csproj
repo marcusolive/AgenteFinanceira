@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\AgenteFinanceiro.Application\AgenteFinanceiro.Application.csproj" />
+    <ProjectReference Include="..\AgenteFinanceiro.Infrastructure\AgenteFinanceiro.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Agents.AI.Hosting.A2A.AspNetCore" Version="1.26.0-preview.261023.1" />
+    <PackageReference Include="Microsoft.Agents.AI.OpenAI" Version="1.26.0" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>4533d7e8-1e67-49bc-a6de-9b5bcce9a388</UserSecretsId>
+  </PropertyGroup>
+
+</Project>
